@@ -1,0 +1,42 @@
+.content{
+    height: 90%;
+    width: 90%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    position: absolute;
+  }
+
+.container {
+    display: flex;
+    height: 60%;
+  }
+  
+  .img-left {
+    flex: 1;
+    width: 24%;
+    height: 100%;
+    background-color: rgb(127, 153, 255);
+  }
+  
+  .text-right {
+    flex: 3;
+    width: 76%;
+    height: 100%;
+    background-color: aqua;
+  }
+  
+  .bot-img {
+    flex: 1;
+    height: 21.25%;
+    background-color: blue;
+  }
+  
+  .bot-txt {
+    flex: 1;
+
+    height: 18.75%;
+    background-color: gold;
+  }
+  

@@ -1,0 +1,39 @@
+.content{
+  height: 90%;
+  width: 90%;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  margin-left: 2.5%;
+  margin-right: 5%;
+  position: absolute;
+}
+.container{
+  height: 60%;
+  width: 100%;
+}
+
+.img-left{
+  float: left;
+  width: 24%;
+  height: 100%;
+  background-color: rgb(127, 153, 255);
+}
+.text-right{
+  float: right;
+  width: 76%;
+  height: 100%;
+  background-color: aqua;
+}
+.bot-img{
+  height: 21.25%;
+  width: 100%;
+  background-color: blue;
+
+}
+.bot-txt{
+
+  height: 18.75%;
+  width: 100%;
+  background-color: gold;
+
+}
