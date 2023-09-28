@@ -26,29 +26,6 @@
     background-color: rgba(0, 0, 0);
     z-index: 1;
   }
-  #circle-left {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: -110px;
-    margin-top: 50px;
-    background-color: rgba(59, 79, 255, 0.5);
-    z-index: 3;
-    border: 2px black solid;
-  }
-  
-  #circle-right {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: -40px;
-    margin-top: 50px;
-    background-color: rgba(18, 110, 22, 0.5);
-    z-index: 3;
-    border: 2px black solid;
-  }
 
 #vertical-rectangle {
     height: 230px;
@@ -74,4 +51,54 @@
     position: relative;
     left:30px;
     top:30px;
+    width: 240px;
+    height: 240px;
+  }
+
+  /*transforms:*/
+  #tr-outer-circle {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0);
+    z-index: 1;
+    position: absolute;
+  }
+  
+  #tr-white-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    transform: translate(35px, 35px);
+    position: absolute;
+  }
+  
+  #tr-inner-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0);
+    z-index: 1;
+    transform: translate(70px, 70px);
+    position: absolute;
+  }
+  
+  #tr-vertical-rectangle {
+    height: 230px;
+    position: absolute;
+    width: 10px;
+    background-color: #000000;
+    z-index: 10;
+    transform: translate(100px, -10px);
+  }
+  
+  #tr-horizontal-rectangle {
+    position: absolute;
+    height: 10px;
+    width: 230px;
+    background-color: #000000;
+    z-index: 10;
+    transform: translate(-10px, 100px);
   }
