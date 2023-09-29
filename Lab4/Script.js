@@ -99,8 +99,8 @@ const transform = computedStyle.getPropertyValue("transform");
 let paramsStr = transform.match("[\\d\\., ]+")[0];
 let params = paramsStr.split(", ");
 
-params[0] = parseFloat(params[0]) - 0.25;
-params[3] = parseFloat(params[3]) - 0.25;
+params[0] = Math.max(parseFloat(params[0]) - 0.25,0.1);
+params[3] = Math.max(parseFloat(params[3]) - 0.25,0.1);
 
 img.style.transform = `matrix(${params.join(", ")})`;
 });
