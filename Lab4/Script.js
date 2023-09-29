@@ -11,16 +11,6 @@ const addTextClickListeners = () => {
     elem.style.color = "white";
   });
 
-/*document.getElementById("sixth-one").addEventListener("click", (e) => {
-    const elem = document.getElementById("sixth-one");
-    if(elem.style.cssText!=""){
-      elem.style.cssText = "";
-      return;
-    }
-    elem.style.backgroundColor = "green";
-    elem.style.color = "yellow";
-  });*/
-
   document.querySelector("#sixth-one").addEventListener("click", (e) => {
 const elem = document.querySelector("#sixth-one");
 if (elem.style.cssText != "") {
@@ -51,23 +41,13 @@ document.getElementById("delete-btn").addEventListener("click",()=>{
   imgCounts--;
 });
 document.getElementById("zoom-in-btn").addEventListener("click",()=>{
-  console.log('img-so-big-'+(imgCounts-1));
-  var img = document.getElementById('img-so-big-'+(imgCounts-1));
-  console.log(img);
-  // Select the HTML element you want to get the old scale value from
-const elementToInspect = img; // Replace with your element's ID
+var img = document.getElementById('img-so-big-'+(imgCounts-1));
 
-// Get the computed style of the element
+const elementToInspect = img; 
+
 const computedStyle = window.getComputedStyle(elementToInspect);
-  console.log(computedStyle);
 
-// Extract the scale value from the transform property
-const transform = computedStyle.getPropertyValue("transform");
-  console.log(transform);
-
-// Extract the scale value using regular expression (if it exists)
-
-
+  const transform = computedStyle.getPropertyValue("transform");
 
 let paramsStr = transform.match("[\\d\\., ]+")[0];
 let params = paramsStr.split(", ");
@@ -80,21 +60,10 @@ img.style.transform = `matrix(${params.join(", ")})`;
 document.getElementById("zoom-out-btn").addEventListener("click",()=>{
   console.log('img-so-big-'+(imgCounts-1));
   var img = document.getElementById('img-so-big-'+(imgCounts-1));
-  console.log(img);
-  // Select the HTML element you want to get the old scale value from
-const elementToInspect = img; // Replace with your element's ID
 
-// Get the computed style of the element
-const computedStyle = window.getComputedStyle(elementToInspect);
-  console.log(computedStyle);
+  const elementToInspect = img; 
 
-// Extract the scale value from the transform property
 const transform = computedStyle.getPropertyValue("transform");
-  console.log(transform);
-
-// Extract the scale value using regular expression (if it exists)
-
-
 
 let paramsStr = transform.match("[\\d\\., ]+")[0];
 let params = paramsStr.split(", ");
