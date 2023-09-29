@@ -1,10 +1,6 @@
 .content{
-    height: 90%;
-    width: 90%;
-    margin-top: 2.5%;
-    margin-bottom: 5%;
-    margin-left: 2.5%;
-    margin-right: 5%;
+    height: 100%;
+    width: 100%;
     position: absolute;
   }
 
@@ -14,29 +10,25 @@
   }
   
   .img-left {
-    flex: 1;
-    width: 24%;
+    flex: 24;
     height: 100%;
+    text-align: center;
     background-color: rgb(127, 153, 255);
   }
   
   .text-right {
-    flex: 3;
-    width: 76%;
+    flex: 76;
     height: 100%;
     background-color: aqua;
   }
   
   .bot-img {
-    flex: 1;
     height: 21.25%;
+    text-align: center;
     background-color: blue;
   }
   
   .bot-txt {
-    flex: 1;
-
     height: 18.75%;
     background-color: gold;
   }
-  
