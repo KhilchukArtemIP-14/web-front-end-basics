@@ -1,0 +1,54 @@
+#load-btn {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+  }
+   
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1504px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .alert{
+    color:red;
+    text-align:center;
+    font-size:4rem;
+    flex:1;
+  }
+
+  .info{
+    text-align:center;
+    font-size:4rem;
+    flex:1;
+  }
+  
+  /* Basic Card Styles */
+  .card {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    background-color:#f0f0f0;
+  }
+  
+  .card img {
+    max-width: 300px;
+    max-height:300px;
+    height: auto;
+  }
+  
+  .card p {
+    font-size:1rem;
+    margin:5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
