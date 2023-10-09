@@ -27,16 +27,16 @@ class Person {
   const addButtonListeners = ()=>{
     document.getElementById("load-btn").addEventListener("click",()=>{
 
-      document.getElementById("container").innerHTML='<div class="info">Loading...</div>';
+    document.getElementById("container").innerHTML='<div class="info">Loading...</div>';
 
-      var data = getTheData();
-      data.then((people)=>{
+    var data = getTheData();
+      
+    data.then((people)=>{
 
-      var container = document.getElementById("container");
-      container.innerHTML="";
+    var container = document.getElementById("container");
+    container.innerHTML="";
         
-        for(let person of people){
-            
+    for(let person of people){    
         container.innerHTML+='<div class="card">'+
         `<img src="${person.pictureUrl}" alt="Portrait">`+
         `<p>Postcode: ${person.postcode}</p>`+
@@ -45,7 +45,8 @@ class Person {
         `<p>Email: ${person.email}</p>`+
       '</div>';
         }
-      }).catch(error => {
+      })
+      .catch(error => {
       document.getElementById("container").innerHTML='<div class="alert">Oops, failed to load data</div>';
     })
     });
