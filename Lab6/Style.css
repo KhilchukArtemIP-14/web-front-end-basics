@@ -8,7 +8,6 @@
     border: none;
     border-radius: 5px;
   }
-   
   
   .card-container {
     display: flex;
@@ -32,7 +31,6 @@
     flex:1;
   }
   
-  /* Basic Card Styles */
   .card {
     width:300px;
     display: flex;
