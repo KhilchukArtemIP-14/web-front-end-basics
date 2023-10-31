@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router basename="/web-front-end-basics/Lab7/lab-7/"> 
       <App />
     </Router>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
