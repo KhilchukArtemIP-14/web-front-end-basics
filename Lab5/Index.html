@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Хільчук А.В., ІП-14, лаб5, в. 94
+    </title>
+    <meta charset="UTF-8" >
+    <meta name="keywords" content="IP-14,Khilchuk,Laba,Lab5,Front-end,basics,94" >
+    <meta name="description" content="Fifth laboratory work of basics of Front-end">
+    <link rel="stylesheet" type="text/css" href="Style.css" >
+</head>
+<body>
+    <div class="form-container">
+        <form class="form" onsubmit="return false">
+            <h2 class="form-title">Please, fill the form</h2>
+            <input type="text" placeholder="Input surname, initials" class="primary" id="name-field">
+            <input type="text" placeholder="Input ID-card" class="primary" id="id-card-field">
+            <input type="text" placeholder="Input Faculty" class="primary" id="faculty-field">
+            <input type="text" placeholder="Input date of birth" class="primary" id="date-of-birth-field">
+            <input type="text" placeholder="Input city" class="primary" id="city-field">
+            <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
+        </form>
+    </div>
+    <div id="last-successful-submission" class="last-submission-container">
+        <h3 style="margin-top: 0;">Last successful submission:</h3>
+        <span>None</span>
+    </div>
+    
+    <script src="Script.js"></script>
+</body>
