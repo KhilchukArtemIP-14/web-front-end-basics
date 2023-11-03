@@ -4,10 +4,10 @@ input[type="text"] {
     border-radius: 4px;
     font-size: 16px;
     outline: none;
-    margin-bottom: 10px;
   }
   .primary{
     border: 3px solid rgb(163, 212, 255);
+    margin-bottom: 10px;
   }
   .invalid{
     border: 3px solid rgb(255, 90, 90);
@@ -44,7 +44,7 @@ input[type="text"] {
   .validation-error-text{
     color:red;
     font-weight: bolder;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .last-submission-container{
     background-color: azure;

@@ -6,6 +6,7 @@ class FormGroup{
         this.validationMessage=validationMessage;
         this.hasMessage=false;
         element.addEventListener("focus", () => {
+            this.setPrimaryClass()
             this.removeMessage()
           });
       
@@ -62,7 +63,6 @@ class FormGroup{
 }
 
 const addFormListeners = () => {
-    //regexes still need polishing, laying off base for now
    let nameField = document.getElementById("name-field")
    const nameGroup= new FormGroup(nameField, 
                                 "^[A-Z][a-z]* [A-Z]\\.[A-Z]\\.$",
