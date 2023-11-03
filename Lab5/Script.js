@@ -1,3 +1,4 @@
+//task 1
 class FormGroup{
     constructor(element, regex,validationMessage){
         this.element=element;
@@ -64,28 +65,28 @@ const addFormListeners = () => {
     //regexes still need polishing, laying off base for now
    let nameField = document.getElementById("name-field")
    const nameGroup= new FormGroup(nameField, 
-                                "[A-Za-z]+ [A-Z]\.[A-Z]\.",
+                                "^[A-Z][a-z]* [A-Z]\\.[A-Z]\\.$",
                                 "Please, input the correct name (i.e. Khilchuk A.V.)")
     
     
     let idCardField = document.getElementById("id-card-field")
     const idCardGroup= new FormGroup(idCardField, 
-                                "[A-Z]+ №[0-9]+",
+                                "^[A-Z]{2} №\\d{6}$",
                                 "Please, input the correct ID Card (i.e. IP №123456)")
 
     let facultyField = document.getElementById("faculty-field")
     const facultyCardGroup= new FormGroup(facultyField, 
-                                "[A-Z]",
+                                "^[A-Z]{4}$",
                                 "Please, input the correct faculty (i.e. FICT) ")
 
     let dateofBirthField = document.getElementById("date-of-birth-field")
     const dateofBirthGroup= new FormGroup(dateofBirthField, 
-                                "[0-9]+\.[0-9]+\.[0-9]+",
+                                "^[0-9]{2}\.[0-9]{2}\.[0-9]{4}$",
                                 "Please, input the date of birth (i.e. 17.06.2004) ")
 
     let cityField = document.getElementById("city-field")
     const cityGroup= new FormGroup(cityField, 
-                                "c\. [A-Za-z]+",
+                                "^c\. [A-Z][a-z]*$",
                                 "Please, input the date of birth (i.e. c. Slavuta) ")
     
     const formGroups = [nameGroup, idCardGroup, facultyCardGroup, dateofBirthGroup, cityGroup]
@@ -112,3 +113,52 @@ const addFormListeners = () => {
 }
 
 addFormListeners()
+
+//task2
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+  
+function getContrastColor(hexColor) {
+    var r = parseInt(hexColor.substr(1, 2), 16);
+    var g = parseInt(hexColor.substr(3, 2), 16);
+    var b = parseInt(hexColor.substr(5, 2), 16);
+
+    var luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+
+    return luminance > 0.5 ? 'black' : 'white';
+}
+  
+
+
+const addTableEventHandlers = () => {
+    const variantCell = document.getElementById("variant-cell");
+    const colorPicker = document.getElementById("color-picker");
+  
+    variantCell.addEventListener("mouseover", (e) => {
+        let color=getRandomColor();
+        e.target.style.backgroundColor = color;
+        e.target.style.color = getContrastColor(color);
+    });
+  
+    variantCell.addEventListener("click", (e) => {
+        e.target.style.backgroundColor = colorPicker.value;
+        e.target.style.color = getContrastColor(colorPicker.value);
+    });
+  
+    variantCell.addEventListener("dblclick", (e) => {
+        let cells= document.querySelectorAll("#my-table td")
+
+        for (var i = 0; i < cells.length; i+=7) {
+            cells[i].style.backgroundColor = colorPicker.value;
+            cells[i].style.color = getContrastColor(colorPicker.value);
+        }   
+    });
+};
+
+addTableEventHandlers()

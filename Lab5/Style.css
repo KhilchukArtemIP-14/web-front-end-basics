@@ -55,3 +55,33 @@ input[type="text"] {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  div #table {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  #color-picker {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 50px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+td {
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .color-container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
