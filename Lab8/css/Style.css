@@ -152,7 +152,8 @@ h3 {
     font-family: OblivianBold;
     color: rgb(0, 8, 57);
     font-size: 1rem;
-    margin-top: 0px;
+    /*margin-top: 0px;*/
+    margin-bottom: -8px;
 }
 .woman-container {
     margin-right: 70px;
@@ -221,12 +222,11 @@ h3 {
 .grey-square {
     background-color: rgb(218, 225, 231);
     height: 510px;
-    width: 210%;
+    width: 100%;
     z-index: -1;
-    margin-right: -145px;
-    top: -603px;
+    top: -633px;
     position: relative;
-    right: -262px;
+    right: -126px;
 }
 .h3-purple {
     color: white;
@@ -249,7 +249,7 @@ h2 {
     font-weight: bold;
     font-family: OblivianBold;
     color: rgb(0, 8, 57);
-    font-size: 2.5rem;
+    font-size: 2.15rem;
     margin-bottom: 10px;
 }
 
@@ -279,15 +279,130 @@ h2 {
     font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
     max-width: 270px;
 }
-.arrow-img{
+.arrow-img {
     width: 167px;
     height: 93px;
     margin-top: auto;
     margin-bottom: auto;
 }
-.step-subtext{
+.step-subtext {
     font-size: 1rem;
     line-height: 1.5;
     color: rgb(0, 8, 57);
     font-weight: bold;
+}
+.services {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 249, 250);
+    margin-left: -500px;
+    padding-left: 500px;
+    margin-right: -500px;
+    padding-right: 500px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.services-info {
+    text-align: left;
+    width: 400px;
+}
+
+.photo-guy-img {
+    height: 700px;
+    top: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+.services-li {
+    display: flex;
+    height: min-content;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.services-li-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(0, 8, 57);
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.services-ul{
+    margin-bottom: 40px;
+}
+.grey-dots{
+    width: 55%;
+    position: absolute;
+    top: 417px;
+    left: -79px;
+    z-index: 0;
+}
+
+.photographer-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.quotes{
+    background-color: white;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 420px;
+    text-align: center;
+    font-family: OblivianThin, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 8, 57);
+    font-size: 1.15rem;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.dots{
+    display: flex;
+    justify-content: center;
+}
+.dot-active{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(18, 100, 250);
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.carousel-arrow-img{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
 }
