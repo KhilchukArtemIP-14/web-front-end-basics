@@ -202,21 +202,21 @@ h3 {
 .purple-square {
     background-color: rgb(0, 8, 57);
     color: white;
-    max-width: 510px;
+    max-width: 485px;
     height: 200px;
-    font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+    font-family: "OblivianThin", sans-serif;
     font-weight: bolder;
     top: -190px;
     z-index: 1;
     position: relative;
-    left: -115px;
+    left: -3vw;
     padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 1.5;
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 1.5;
 }
 
 .grey-square {
