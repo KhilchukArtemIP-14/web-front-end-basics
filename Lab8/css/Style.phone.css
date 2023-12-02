@@ -384,9 +384,70 @@
         flex-direction: column;
         position: relative;
     }
+
     .quotes {
-        display: none;
+        background-color: white;
+        display: flex;
+        height: 500px;
+        width: 300px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
     }
+    .quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 280px;
+        text-align: center;
+        font-family: OblivianThin, sans-serif;
+        font-weight: bolder;
+        color: rgb(0, 8, 57);
+        font-size: 1.15rem;
+        line-height: 1.6;
+    }
+    .avatar {
+        /*width: 70px;*/
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+    }
+    .dot-active {
+        height: 8px;
+        width: 8px;
+        background-color: rgb(18, 100, 250);
+        border-radius: 50%;
+        margin: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .dot {
+        height: 8px;
+        width: 8px;
+        background-color: rgb(204, 204, 204);
+        border-radius: 50%;
+        margin: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .carousel-arrow-img {
+        width: 30px;
+        height: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+        cursor: pointer;
+    }
+
     .latest-blogposts {
         display: none;
     }
