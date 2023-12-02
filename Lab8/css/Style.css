@@ -264,10 +264,10 @@ h2 {
     font-family: OblivianBold;
     font-weight: bold;
     font-size: 0.85rem;
-    margin-bottom: 0px;;
+    margin-bottom: 0px;
     color: rgb(127, 131, 156);
 }
-.how-to-row{
+.how-to-row {
     display: flex;
     justify-content: center;
 }
@@ -284,7 +284,7 @@ h2 {
     max-width: 270px;
 }
 .arrow-img {
-    width:90px;
+    width: 90px;
     height: 47px;
     margin-right: 20px;
     margin-top: auto;
@@ -400,7 +400,7 @@ h2 {
 .dot {
     height: 8px;
     width: 8px;
-    background-color: rgb(204,204,204);
+    background-color: rgb(204, 204, 204);
     border-radius: 50%;
     margin: 10px;
     margin-left: 5px;
@@ -422,7 +422,7 @@ h2 {
     margin-right: -500px;
     padding-right: 500px;
     padding-bottom: 50px;
-    padding-top:60px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -432,15 +432,16 @@ h2 {
 .blogs {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 8px;
 }
-.latest-blogspot-header{
+.latest-blogspot-header {
     margin-top: 0px;
     margin-bottom: 16px;
     margin-bottom: 40px;
 }
-.latest-blogposts-microheader{
+.latest-blogposts-microheader {
     font-family: OblivianBold;
     font-weight: bold;
     font-size: 0.85rem;
@@ -459,6 +460,7 @@ h2 {
     padding: 20px;
     width: 170px;
     line-height: 1.6;
+    margin: 8px;
 }
 
 .date-subtitle {
@@ -469,7 +471,6 @@ h2 {
     color: rgb(127, 131, 156);
     /*margin-top: 8px;*/
     margin-bottom: 8px;
-
 }
 
 .blog-title {
@@ -477,7 +478,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.blog-info{
+.blog-info {
     font-size: 1.15rem;
     font-weight: bolder;
     text-align: left;
@@ -485,7 +486,7 @@ h2 {
     margin-top: 8px;
     color: rgb(0, 8, 57);
 }
-.subquote{
+.subquote {
     margin: 0;
     margin-top: 8px;
     font-size: 0.85rem;
