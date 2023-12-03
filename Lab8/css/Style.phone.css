@@ -4,7 +4,7 @@
         line-height: 1;
         background-color: white;
         overflow-x: hidden;
-        overflow-x: auto; /* or overflow-x: scroll; */
+        overflow-x: auto;
     }
 
     .container {
@@ -17,7 +17,6 @@
         width: 100%;
         display: flex;
         justify-content: right;
-        /* background-color: grey; */
         flex-direction: column;
         text-align: center;
         margin-left: auto;
@@ -34,12 +33,11 @@
     .navigation {
         width: 100%;
         font-size: 1.15rem;
-        /*background-color: azure;*/
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
     }
 
@@ -52,7 +50,7 @@
         color: rgb(18, 100, 250);
         padding: 10px;
         border: 1.25px solid #ececec;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
         padding-left: 20px;
         padding-right: 20px;
@@ -120,7 +118,6 @@
     }
 
     .opener {
-        /*background-color: bisque; */
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -154,11 +151,9 @@
         font-family: OblivianBold;
         color: rgb(0, 8, 57);
         font-size: 1rem;
-        /*margin-top: 0px;*/
         margin-bottom: -8px;
     }
     .woman-container {
-        /* margin-right: 70px; */
         height: 760px;
         position: relative;
         margin-left: auto;
@@ -166,9 +161,7 @@
     }
     .woman-img {
         max-width: 95vw;
-        /* max-height: 700px; */
         position: relative;
-        /* max-width: 39%;*/
     }
 
     .blue-btn {
@@ -199,7 +192,7 @@
 
     .info-box {
         text-align: left;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         max-width: 170px;
     }
     .small-icon {
@@ -251,7 +244,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
     }
     .number {
@@ -298,7 +291,7 @@
     }
     .how-to-step {
         text-align: left;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         max-width: 270px;
         margin-left: auto;
         margin-right: auto;
@@ -346,7 +339,6 @@
     }
     .photo-guy-img {
         max-width: 90%;
-        /* top: -60px; */
         position: relative;
         z-index: 1;
         margin-left: auto;
@@ -375,10 +367,7 @@
     }
     .grey-dots {
         width: 128px;
-        /* height: 128px; */
         position: relative;
-        /* top: 275px; */
-        /* left: -4.45vw; */
         z-index: 0;
         left: -3%;
         top: -95px;
@@ -413,7 +402,6 @@
         line-height: 1.6;
     }
     .avatar {
-        /*width: 70px;*/
         height: 70px;
         border-radius: 50%;
         overflow: hidden;
@@ -507,7 +495,6 @@
         font-weight: bold;
         font-size: 0.75rem;
         color: rgb(127, 131, 156);
-        /*margin-top: 8px;*/
         margin-bottom: 8px;
     }
 

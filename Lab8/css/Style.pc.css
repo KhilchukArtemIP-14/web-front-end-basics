@@ -30,7 +30,6 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        /*background-color: grey;*/
     }
     .logo {
         height: 50px;
@@ -42,11 +41,10 @@
     .navigation {
         width: 50%;
         font-size: 1.15rem;
-        /*background-color: azure;*/
         text-align: center;
         display: flex;
         justify-content: space-around;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
     }
 
@@ -62,7 +60,7 @@
         color: rgb(18, 100, 250);
         padding: 10px;
         border: 1.25px solid #ececec;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
         padding-left: 20px;
         padding-right: 20px;
@@ -121,7 +119,6 @@
     }
 
     .opener {
-        /*background-color: bisque;*/
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -136,7 +133,7 @@
         display: flex;
         flex-direction: column;
         max-width: 410px;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
         line-height: 1.25;
     }
@@ -151,7 +148,6 @@
         font-family: OblivianBold;
         color: rgb(0, 8, 57);
         font-size: 1rem;
-        /*margin-top: 0px;*/
         margin-bottom: -8px;
     }
     .woman-container {
@@ -171,7 +167,7 @@
         background-color: rgb(18, 100, 250);
         padding: 10px;
         border: 1.25px solid rgb(18, 100, 250);
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
         padding-left: 20px;
         padding-right: 20px;
@@ -185,7 +181,7 @@
 
     .info-box {
         text-align: left;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         max-width: 170px;
     }
     .small-icon {
@@ -235,7 +231,7 @@
     .numbers-row {
         display: flex;
         justify-content: space-around;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
     }
     .number {
@@ -256,7 +252,6 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        /*background-color: aquamarine;*/
         margin-top: 20px;
     }
     .micro-how-to-title {
@@ -279,7 +274,7 @@
     }
     .how-to-step {
         text-align: left;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         max-width: 270px;
     }
     .arrow-img {
@@ -474,7 +469,6 @@
         font-weight: bold;
         font-size: 0.75rem;
         color: rgb(127, 131, 156);
-        /*margin-top: 8px;*/
         margin-bottom: 8px;
     }
 

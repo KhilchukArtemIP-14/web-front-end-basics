@@ -4,7 +4,7 @@
         line-height: 1;
         background-color: white;
         overflow-x: hidden;
-        overflow-x: auto; /* or overflow-x: scroll; */
+        overflow-x: auto;
     }
 
     .container {
@@ -13,16 +13,16 @@
         margin-right: auto;
         overflow: hidden;
     }
+
     .header-container {
         width: 100%;
         display: flex;
         justify-content: right;
-        /* background-color: grey; */
-        /* flex-direction: column; */
         text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
+
     .logo {
         height: 50px;
         width: 150px;
@@ -31,10 +31,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .navigation {
         width: 43%;
         font-size: 1.15rem;
-        /* background-color: azure; */
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -54,13 +54,10 @@
         border: 1.25px solid #ececec;
         font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
-        /* padding-left: 10px; */
-        /* padding-right: 10px; */
         cursor: pointer;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
-        /* width: 151px;*/
     }
 
     .nav-item-main {
@@ -73,6 +70,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .nav-item {
         margin-top: auto;
         margin-bottom: auto;
@@ -84,6 +82,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .down-caret {
         max-width: 20px;
     }
@@ -143,20 +142,22 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     h1 {
         font-weight: bold;
         font-family: OblivianBold;
         color: rgb(0, 8, 57);
         font-size: 3.25rem;
     }
+
     h3 {
         font-weight: bold;
         font-family: OblivianBold;
         color: rgb(0, 8, 57);
         font-size: 1rem;
-        /*margin-top: 0px;*/
         margin-bottom: -8px;
     }
+
     .woman-container {
         margin-right: 70px;
         height: 100vw;
@@ -164,12 +165,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .woman-img {
         width: 55vw;
         max-width: 520px;
-        /* max-height: 700px; */
         position: relative;
-        /* max-width: 39%;*/
     }
 
     .blue-btn {
@@ -200,13 +200,15 @@
 
     .info-box {
         text-align: left;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         max-width: 170px;
     }
+
     .small-icon {
         max-width: 60px;
         margin-top: 20px;
     }
+
     .subtext {
         color: rgb(160, 165, 175);
         font-size: 1rem;
@@ -229,8 +231,6 @@
         flex-direction: column;
         justify-content: center;
         line-height: 1.25;
-        /* padding-left: 10%; */
-        /* padding-right: 10%; */
         position: relative;
     }
 
@@ -243,19 +243,21 @@
         position: relative;
         right: -44vw;
     }
+
     .h3-purple {
         color: white;
         margin-top: 20px;
         margin-bottom: 5px;
     }
+
     .numbers-row {
         display: flex;
-        /* flex-direction: column; */
         justify-content: space-around;
         font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
         flex-wrap: wrap;
     }
+
     .number {
         display: flex;
         margin-left: auto;
@@ -264,6 +266,7 @@
         text-align: center;
         max-width: 250px;
     }
+
     h2 {
         font-weight: bold;
         font-family: OblivianBold;
@@ -276,9 +279,9 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        /*background-color: aquamarine;*/
         margin-top: 20px;
     }
+
     .micro-how-to-title {
         font-family: OblivianBold;
         font-weight: bold;
@@ -286,10 +289,12 @@
         margin-bottom: 0px;
         color: rgb(127, 131, 156);
     }
+
     .how-to-row {
         display: flex;
         justify-content: center;
     }
+
     .how-to-title {
         width: 280px;
         margin-left: auto;
@@ -297,27 +302,25 @@
         margin-top: 5px;
         margin-bottom: 30px;
     }
+
     .how-to-step {
         text-align: left;
         font-family: "OblivianThin", sans-serif;
         max-width: 270px;
         margin: 10px;
-        /* margin-left: auto; */
     }
+
     .arrow-img {
-        width: 90px;
-        height: 47px;
-        margin-right: 20px;
-        margin-top: auto;
-        margin-bottom: auto;
         display: none;
     }
+
     .step-subtext {
         font-size: 1rem;
         line-height: 1.5;
         color: rgb(0, 8, 57);
         font-weight: bold;
     }
+
     .services {
         text-align: center;
         display: flex;
@@ -329,7 +332,6 @@
         padding-right: 500px;
         margin-top: 70px;
         flex-direction: column;
-        /* margin-bottom: -18px;*/
     }
 
     .services-info {
@@ -340,6 +342,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .services-title {
         width: 100%;
         margin-left: auto;
@@ -347,10 +350,10 @@
         margin-top: 5px;
         margin-bottom: 30px;
     }
+
     .photo-guy-img {
         max-width: 600px;
         width: 90%;
-        /* top: -60px; */
         position: relative;
         z-index: 1;
         margin-left: auto;
@@ -377,13 +380,10 @@
     .services-ul {
         margin-bottom: 40px;
     }
+
     .grey-dots {
         width: 221px;
-        /* height: 128px; */
         position: relative;
-        /* top: 275px; */
-        /* left: -4.45vw; */
-        z-index: 0;
         left: 3vw;
         top: -172px;
     }
@@ -404,6 +404,7 @@
         margin-right: auto;
         width: 90%;
     }
+
     .quote {
         display: flex;
         flex-direction: column;
@@ -416,8 +417,8 @@
         font-size: 1.15rem;
         line-height: 1.6;
     }
+
     .avatar {
-        /*width: 70px;*/
         height: 70px;
         border-radius: 50%;
         overflow: hidden;
@@ -425,11 +426,13 @@
         margin-right: auto;
         margin-top: 30px;
     }
+
     .dots {
         display: flex;
         justify-content: center;
         margin-top: 16px;
     }
+
     .dot-active {
         height: 8px;
         width: 8px;
@@ -440,6 +443,7 @@
         margin-right: 5px;
         cursor: pointer;
     }
+
     .dot {
         height: 8px;
         width: 8px;
@@ -450,6 +454,7 @@
         margin-right: 5px;
         cursor: pointer;
     }
+
     .carousel-arrow-img {
         max-width: 5%;
         margin-top: auto;
@@ -478,11 +483,13 @@
         justify-content: space-around;
         margin-top: 8px;
     }
+
     .latest-blogspot-header {
         margin-top: 0px;
         margin-bottom: 16px;
         margin-bottom: 40px;
     }
+
     .latest-blogposts-microheader {
         font-family: OblivianBold;
         font-weight: bold;
@@ -490,6 +497,7 @@
         color: rgb(127, 131, 156);
         margin-bottom: 8px;
     }
+
     .blog {
         display: flex;
         flex-direction: column;
@@ -511,7 +519,6 @@
         font-weight: bold;
         font-size: 0.75rem;
         color: rgb(127, 131, 156);
-        /*margin-top: 8px;*/
         margin-bottom: 8px;
     }
 
@@ -520,6 +527,7 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
     .blog-info {
         font-size: 1.15rem;
         font-weight: bolder;
@@ -528,6 +536,7 @@
         margin-top: 8px;
         color: rgb(0, 8, 57);
     }
+
     .subquote {
         margin: 0;
         margin-top: 8px;
