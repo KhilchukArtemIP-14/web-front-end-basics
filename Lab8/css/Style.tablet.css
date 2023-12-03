@@ -18,7 +18,7 @@
         display: flex;
         justify-content: right;
         /* background-color: grey; */
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -32,14 +32,14 @@
         margin-right: auto;
     }
     .navigation {
-        width: 100%;
+        width: 43%;
         font-size: 1.15rem;
-        /*background-color: azure;*/
+        /* background-color: azure; */
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
     }
 
@@ -52,14 +52,15 @@
         color: rgb(18, 100, 250);
         padding: 10px;
         border: 1.25px solid #ececec;
-        font-family: "OblivianThin", sans-serif; /* Use the font-family in your styles */
+        font-family: "OblivianThin", sans-serif;
         font-weight: bolder;
-        padding-left: 20px;
-        padding-right: 20px;
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
         cursor: pointer;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
+        /* width: 151px;*/
     }
 
     .nav-item-main {
